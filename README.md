@@ -16,9 +16,9 @@ There are four steps of alignment using STAR:
 
 *STAR uses genome index files that must be saved in unique directories. The human genome index was built from the FASTA file hg19.fa as follows:
 
-genomeDir=/path/to/genome
+'genomeDir=/path/to/genome
 mkdir $genomeDir
-STAR --runMode genomeGenerate --genomeDir $genomeDir --genomeFastaFiles genome.fa\ --runThreadN <n>
+STAR --runMode genomeGenerate --genomeDir $genomeDir --genomeFastaFiles genome.fa\ --runThreadN <n>'
 
 *Alignments are executed as follows:
 
